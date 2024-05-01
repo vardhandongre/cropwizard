@@ -94,7 +94,7 @@ def generate_questions_from_topic(topic, model, num_of_questions):
 # Function to generate prompts for Dialog generation
 
 def generate_dialog_prompt(goal, model, num_of_turns = 6):
-    prompt = "Generate a conversation between a farmer and an AI assistant about the following goal: {}, the conversation must have atleast {} turns".format(goal, num_of_turns)
+    prompt = "Generate a conversation between a farmer and an Agriculture Specialist about the following goal: {}, the conversation must have atleast {} turns, Only give the conversation and no other text in response.".format(goal, num_of_turns)
 
     if model == "CropWizard 1.5":
         url = "https://www.uiuc.chat/api/chat-api/chat"
@@ -123,8 +123,9 @@ def generate_dialog_prompt(goal, model, num_of_turns = 6):
         response = requests.post(url, headers=headers, json=data)
 
     else:
+        model = "gpt-4-1106-preview"
         messages = []
-        messages.append({"role": "system","content": "You are ChatGPT, a helpful assistant. Follow the user's instructions carefully. Respond using markdown.If the question is related to farming in ANY WAY then always answer the question even if the documents are not helpful. Give the users the most helpful response possible as best you can. Remember this: always give a reasonable answer to the users question and never refuse to answer even if you have little information to go on; give an array of helpful answers if necessary. ALWAYS respond with something helpful to answer their questions and propose solutions. ALWAYS provide citations when relevant but don't stack too many citations together.If the user asks an introductory question or greeting along the lines of hello or what can you do? or What's in here? or what is Cropwizard? or similar, then please respond with a warm welcome to Cropwizard, the AI farm assistant chatbot. Tell them that you can answer questions using the entire knowledge base of Extension. Whether you need information on crop management, pest control, or any other farming-related topic, feel free to ask!"})
+        messages.append({"role": "system","content": "You are a helpful AI assistant. Follow the user's instructions carefully."})
         messages.append({"role": "user","content": prompt})
 
         response = chat_completion_request(messages, model)
