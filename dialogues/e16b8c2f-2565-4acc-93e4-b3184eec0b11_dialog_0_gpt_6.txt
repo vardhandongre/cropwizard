@@ -1,0 +1,23 @@
+Farmer: Hi there, could you tell me the recommended rate for nitrogen fertilizer in my corn?
+
+Agriculture Specialist: Absolutely, the recommended rate for nitrogen on corn can vary based on your soil type and the previous crop, but a general guideline is about 1.2 pounds of nitrogen for every bushel of corn you expect to harvest.
+
+Farmer: That's helpful, thanks. Now, my soil test shows high phosphorus levels. Should I adjust my application rate for that?
+
+Agriculture Specialist: Yes, if your soil tests high for phosphorus, you can reduce your application rate. Excess phosphorus can lead to runoff and water quality issues, so you should only apply what the crop needs based on the soil test recommendations.
+
+Farmer: I see. Moving on, could you provide me with a fertilization schedule for growing tomatoes in a high tunnel?
+
+Agriculture Specialist: Of course. Generally, for high tunnel tomatoes, you should apply a complete pre-planting fertilizer according to soil test recommendations. Then, when the first fruits are about the size of a quarter, begin weekly fertigation with a balanced fertilizer.
+
+Farmer: Great, and how can I spot potassium deficiency in my soybeans, and what's the correction method?
+
+Agriculture Specialist: Potassium deficiency in soybeans often shows up as yellowing on the edges of the lower leaves. To correct it, you should apply a potassium sulfate or muriate of potash according to your soil test results.
+
+Farmer: Helpful as always. Another question, is a broadcast spreader or a band applicator better for applying granular fertilizer?
+
+Agriculture Specialist: Well, band applicators can be more efficient, as they place the fertilizer in the root zone, reducing waste and potential environmental impact. However, for larger areas, a broadcast spreader might be more practical. It really depends on your specific situation.
+
+Farmer: I see. Lastly, my vegetable garden needs liquid fertilizer. How often should I apply it during the season?
+
+Agriculture Specialist: For liquid fertilizers, it's typically recommended to apply small amounts every two to three weeks. However, be sure to adjust based on plant response and always follow the fertilizer label instructions.

@@ -44,7 +44,7 @@ def chat_completion_request(messages, model):
 # Function to generate prompts for conversation goal generation from cropwizard
 def generate_questions_from_topic(topic, model, num_of_questions):
 
-    prompt = "Generate a list of {} questions that a farmer might ask on the following topic: {}. Your response should be a list only and no other text.".format(num_of_questions, topic)
+    prompt = "Generate a list of {} questions that a farmer might ask on the following topic: {}. Format your response in the following way: ['Q1', 'Q2', ...]".format(num_of_questions, topic)
 
     if model == "CropWizard 1.5":
         url = "https://www.uiuc.chat/api/chat-api/chat"

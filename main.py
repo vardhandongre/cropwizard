@@ -68,14 +68,14 @@ def main(args):
 
     # iterate over each unique_id, for each question generate dialog
     for unique_id, Qlist in questions.items():
-        for question in Qlist:
+        for i, question in enumerate(Qlist):
             print(f"Generating dialog for ID: {unique_id}")
             response = generate_dialog_prompt(question, d_model, num_of_turns=num_of_turns)
             print(f"Dialog generated for ID: {unique_id}")
             time.sleep(0.5)
             # save the dialog to a json file
             print("Saving the dialog to a file")
-            with open(f"{d_output_path}/{unique_id}_dialog_{d_model}_{num_of_turns}.txt", 'w') as file:
+            with open(f"{d_output_path}/{unique_id}_dialog_{i}_{d_model}_{num_of_turns}.txt", 'w') as file:
                 file.write(response)
             print("Dialog saved to a file")
 
