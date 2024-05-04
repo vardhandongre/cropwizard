@@ -38,7 +38,8 @@ def evaluate_dialogues(dialogs, model):
         client = anthropic.Client(api_key)
         model="claude-3-opus-20240229"
     elif model == "CropWizard 1.5":
-        api_key = os.getenv("CROPWIZARD_API")
+        api_key = os.getenv("OPENAI_API_KEY")
+        cropwizard_api = os.getenv("CROPWIZARD_API")
     else:
         raise ValueError("Invalid model")
 
@@ -83,9 +84,44 @@ def evaluate_dialogues(dialogs, model):
                 )
                 # print(reponse.choices[0].message.content)
                 # Save the response to a file
-                with open(f"{dialogues_folder}/{dialogue}_{model}_evaluation.txt", 'w') as file:
+                dialogue_name, _ = os.path.splitext(dialogue)
+                with open(f"{dialogues_folder}/{dialogue_name}_{model}_evaluation.txt", 'w') as file:
                     file.write(reponse.choices[0].message.content)
                     print(f"Analysis saved to: {dialogue}_{model}_evaluation.txt")
+                break
+
+            elif model == "CropWizard 1.5":
+                url = "https://www.uiuc.chat/api/chat-api/chat"
+                headers = {
+                    'Content-Type': 'application/json'
+                }
+                data = {
+                    "model": "gpt-4",
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": "You are ChatGPT, a helpful assistant. Follow the user's instructions carefully. Respond using markdown.If the question is related to farming in ANY WAY then always answer the question even if the documents are not helpful. Give the users the most helpful response possible as best you can. Remember this: always give a reasonable answer to the users question and never refuse to answer even if you have little information to go on; give an array of helpful answers if necessary. ALWAYS respond with something helpful to answer their questions and propose solutions. ALWAYS provide citations when relevant but don't stack too many citations together.If the user asks an introductory question or greeting along the lines of hello or what can you do? or What's in here? or what is Cropwizard? or similar, then please respond with a warm welcome to Cropwizard, the AI farm assistant chatbot. Tell them that you can answer questions using the entire knowledge base of Extension. Whether you need information on crop management, pest control, or any other farming-related topic, feel free to ask!"
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        }
+                    ],
+                    "openai_key": api_key,
+                    "temperature": 0.7,
+                    "course_name": "cropwizard-1.5",
+                    "stream": True,
+                    "api_key": cropwizard_api
+                }
+
+                response = requests.post(url, headers=headers, json=data)
+                # print(response.text)
+                if response.status_code == 200:
+                    # save the response to a file
+                    dialogue_name, _ = os.path.splitext(dialogue)
+                    with open(f"{dialogues_folder}/{dialogue_name}_{model}_evaluation.txt", 'w') as file:
+                        file.write(response.text)
+                        print(f"Analysis saved to: {dialogue}_{model}_evaluation.txt")
                 break
 
 def main():
