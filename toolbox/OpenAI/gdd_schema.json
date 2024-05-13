@@ -1,0 +1,33 @@
+{
+    "type": "function",
+    "function": {
+        "name": "get_gdd_response",
+        "description": "Retrieve Growing Degree Days (GDD) based on specified parameters from a specified service.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "base": {
+                    "type": "number",
+                    "description": "The base temperature (in °F) used for the GDD calculation."
+                },
+                "placebox": {
+                    "type": "string",
+                    "description": "Identifier for the place or region for the GDD calculation."
+                },
+                "areabox": {
+                    "type": "string",
+                    "description": "Area code associated with the place for regional differentiation."
+                },
+                "date": {
+                    "type": "string",
+                    "description": "Date or date range for which GDD should be calculated."
+                },
+                "plap": {
+                    "type": "string",
+                    "description": "Location parameter for the calculation, possibly a specific station or site identifier."
+                }
+            },
+            "required": ["base", "placebox", "areabox", "date", "plap"]
+        }
+    }
+}

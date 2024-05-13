@@ -1,0 +1,18 @@
+{
+    "type": "function",
+    "function": {
+        "name": "fetch_map_data",
+        "description": "Fetches a URL link to a map image based on the type of pest specified. The map illustrates data relevant to the pest's impact or presence.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "pest_type": {
+                    "type": "string",
+                    "description": "Type of pest for which the map is needed. Accepted values include 'japanese_beetle', 'corn_flea_beetle', 'brown_marmorated_stinkbug'.",
+                    "enum": ["japanese_beetle", "corn_flea_beetle", "brown_marmorated_stinkbug"]
+                }
+            },
+            "required": ["pest_type"]
+        }
+    }
+}

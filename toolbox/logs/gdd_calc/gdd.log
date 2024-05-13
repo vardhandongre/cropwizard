@@ -1,0 +1,2545 @@
+pdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+pdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+pdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+pdd_calc: INFO Response: Corn growing degree-days at Peoria. From 01/01/2024 through 4/2/2024.
+						
+						Actual total: 198
+						Average (11 year): 0
+
+						Projected totals (based on site climate normals)
+						    One-week: 208
+						    Two-week: 228
+pdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+pdd_calc: INFO Response: Corn growing degree-days at Peoria. From 01/01/2024 through 4/2/2024.
+						
+						Actual total: 198
+						Average (11 year): 0
+
+						Projected totals (based on site climate normals)
+						    One-week: 208
+						    Two-week: 228
+pdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+pdd_calc: ERROR Error in getting response
+pdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+pdd_calc: ERROR Error in getting response
+pdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+pdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/02/2024 through 4/2/2024.
+						
+						Actual total: 332
+						Average (11 year): 108
+
+						Projected totals (based on site climate normals)
+						    One-week: 406
+						    Two-week: 496
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/02/2024 through 4/2/2024.
+						
+						Actual total: 332
+						Average (11 year): 108
+
+						Projected totals (based on site climate normals)
+						    One-week: 406
+						    Two-week: 496
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '8', 'placebox': '3', 'areabox': 'brw', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '3', 'areabox': 'brw', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '3', 'areabox': 'brw', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '3', 'areabox': 'brw', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/02/2024 through 4/2/2024.
+						
+						Actual total: 332
+						Average (11 year): 108
+
+						Projected totals (based on site climate normals)
+						    One-week: 406
+						    Two-week: 496
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/02', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/02/2024 through 4/2/2024.
+						
+						Actual total: 332
+						Average (11 year): 108
+
+						Projected totals (based on site climate normals)
+						    One-week: 406
+						    Two-week: 496
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '3', 'areabox': 'brw', 'date': '01/02', 'plap': 'Brownstown'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Brownstown. From 01/02/2024 through 4/2/2024.
+						
+						Actual total: 513
+						Average (11 year): 165
+
+						Projected totals (based on site climate normals)
+						    One-week: 594
+						    Two-week: 697
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: ERROR No match found in response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Crop growing degree-days (base 40° F) at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 408
+						Average (11 year): 205
+
+						Projected totals (based on site climate normals)
+						    One-week: 502
+						    Two-week: 602
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 408
+						Average (11 year): 205
+
+						Projected totals (based on site climate normals)
+						    One-week: 502
+						    Two-week: 602
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 239
+						Average (11 year): 14
+
+						Projected totals (based on site climate normals)
+						    One-week: 262
+						    Two-week: 292
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 408
+						Average (11 year): 205
+
+						Projected totals (based on site climate normals)
+						    One-week: 502
+						    Two-week: 602
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 408
+						Average (11 year): 205
+
+						Projected totals (based on site climate normals)
+						    One-week: 502
+						    Two-week: 602
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 01/01/2024 through 4/11/2024.
+						
+						Actual total: 408
+						Average (11 year): 205
+
+						Projected totals (based on site climate normals)
+						    One-week: 502
+						    Two-week: 602
