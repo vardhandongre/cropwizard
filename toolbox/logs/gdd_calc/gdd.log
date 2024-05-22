@@ -2543,3 +2543,18 @@ gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Peoria. From 
 						Projected totals (based on site climate normals)
 						    One-week: 502
 						    Two-week: 602
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '5', 'areabox': 'dek', 'date': '04/04', 'plap': 'DeKalb'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '5', 'areabox': 'dek', 'date': '01/01', 'plap': 'DeKalb'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': 'dek', 'areabox': '5', 'date': '01/01', 'plap': 'DeKalb'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '81', 'areabox': 'cmi', 'date': '01/01', 'plap': 'Champaign'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Champaign. From 01/01/2024 through 5/20/2024.
+						
+						Actual total: 1304
+						Average (11 year): 926
+
+						Projected totals (based on site climate normals)
+						    One-week: 1508
+						    Two-week: 1726

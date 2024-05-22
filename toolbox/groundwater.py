@@ -112,8 +112,8 @@ def main():
     year = int(input("Enter the year: "))
     depth = fetch_depth(city, month, year)
     if depth:
-        print(f"The depth of groundwater in {city} for {month} {year} is {depth}")
-        log.info(f"The depth of groundwater in {city} for {month} {year} is {depth}")
+        print(f"The depth of groundwater in {city} for {month} {year} is {depth} ft")
+        log.info(f"The depth of groundwater in {city} for {month} {year} is {depth} ft")
     else:
         print("Failed to fetch the depth of groundwater")
         log.error("Failed to fetch the depth of groundwater")
