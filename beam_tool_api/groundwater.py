@@ -1,7 +1,7 @@
 # python script to send a POST request to url endpoint and get the response 
 """
-To deploy: beam deploy crop_tool.py
-For testing: beam serve crop_tool.py
+To deploy: beam deploy groundwater tool.py
+For testing: beam serve groundwater tool.py
 Use CAII gmail to auth.
 """
 
