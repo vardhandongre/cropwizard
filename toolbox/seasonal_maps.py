@@ -69,9 +69,9 @@ def parse_response(response, pattern, type):
     match = re.search(pattern, soup_text, re.DOTALL)
     
     # return the match and the link to map
-    if type == 'japanese_beetle':
+    if type == 'japanese beetle':
         return match.group(), 'https://warm.isws.illinois.edu/warm/warm_pdd/images/JB_PestDegreeDaysMap.svg'
-    elif type == 'corn_flea_beetle':
+    elif type == 'corn flea beetle':
         table = soup.find('table')
         if table:
             # Iterate over all rows in the found table
@@ -88,7 +88,7 @@ def parse_response(response, pattern, type):
             print("No table found.")
         return 'https://warm.isws.illinois.edu/warm/warm_pdd/images/CFB_Map.svg'
     
-    elif type == 'brown_marmorated_stinkbug':
+    elif type == 'brown marmorated stinkbug':
         table = soup.find('table')
         if table:
             # Iterate over all rows in the found table
@@ -121,13 +121,14 @@ def send_request(payload, pattern, type):
 def main():
     # Set up the payload
     type = input('Enter the type of pest (japanese_beetle, corn_flea_beetle, brown_marmorated_stinkbug): ')
-    if type == 'japanese_beetle':
+    type = type.lower()
+    if type == 'japanese beetle':
         payload_data = payload('japanese_beetle')
         pattern = r"Japanese\s+Beetle\s+.*?DDs"
-    elif type == 'corn_flea_beetle':
+    elif type == 'corn flea beetle':
         payload_data = payload('corn_flea_beetle')
         pattern = r"Corn\s+Flea\s+Beetle\s+Degree\s+Days\s+Map\s+for\s+Illinois\s+at\s+.*?Two-week:\s+\d+"
-    elif type == 'brown_marmorated_stinkbug':
+    elif type == 'brown marmorated stinkbug':
         payload_data = payload('brown_marmorated_stinkbug')
         pattern = r"Brown\s+Marmorated\s+Stinkbug\s+Degree\s+Days\s+Map\s+for\s+Illinois\s+at\s+.*?Two-week:\s+\d+"
     else:
@@ -139,7 +140,7 @@ def main():
     response = send_request(payload_data, pattern, type)
     # Log the response
     if response:
-        if type == 'japanese_beetle':
+        if type == 'japanese beetle':
             map_data = requests.get(response[1])
             print("Response: ", response[0])
             print("Map link: ", response[1])

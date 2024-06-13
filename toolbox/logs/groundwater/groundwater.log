@@ -4375,3 +4375,6 @@ groundwater: INFO The depth of groundwater in Barry for April 2023 is 14.3
 groundwater: INFO The depth of groundwater in Big Bend for May 2024 is 13.63
 groundwater: INFO The depth of groundwater in Big Bend for May 2024 is 13.63 ft
 groundwater: INFO The depth of groundwater in Big Bend for March 2023 is 14.95 ft
+groundwater: ERROR Failed to fetch the depth of groundwater
+groundwater: ERROR Failed to fetch the depth of groundwater
+groundwater: INFO The depth of groundwater in Barry for March 2023 is 12.1 ft

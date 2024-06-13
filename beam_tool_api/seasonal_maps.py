@@ -151,9 +151,10 @@ autoscaler = QueueDepthAutoscaler(max_tasks_per_replica=2, max_replicas=3)
 def main(**inputs: Dict[str, Any]):
     # Set up the payload
     type = inputs.get('pest','')
+    type = type.lower()
     print(type)
     if type == 'japanese beetle':
-        print("yes")
+        # print("yes")
         payload_data = payload('japanese_beetle')
         pattern = r"Japanese\s+Beetle\s+.*?DDs"
     elif type == 'corn flea beetle':
