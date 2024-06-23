@@ -2558,3 +2558,2258 @@ gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Champaign. Fr
 						Projected totals (based on site climate normals)
 						    One-week: 1508
 						    Two-week: 1726
+gdd_calc: INFO Payload data: {'base': '10', 'placebox': '20', 'areabox': '30', 'date': '01/02', 'plap': 'Champaign'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '81', 'areabox': 'cmi', 'date': '01/01', 'plap': 'Champaign'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '40', 'placebox': '15', 'areabox': 'ste', 'date': '01/01', 'plap': 'Stelle'}
+gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Stelle. From 01/01/2024 through 5/28/2024.
+						
+						Actual total: 1280
+						Average (11 year): 917
+
+						Projected totals (based on site climate normals)
+						    One-week: 1479
+						    Two-week: 1689
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '81', 'areabox': 'cmi', 'date': '01/01', 'plap': 'Champaign'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: ERROR City not found in the file
+gdd_calc: ERROR City not found in the file
+2024-05-29 23:07:45,015 gdd_calc: ERROR City not found in the file
+2024-05-29 23:08:10,764 gdd_calc: ERROR City not found in the file
+2024-05-29 23:08:36,710 gdd_calc: ERROR City not found in the file
+2024-05-29 23:11:28,512 gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+2024-05-29 23:11:30,393 gdd_calc: INFO Response status code: 200
+2024-05-29 23:11:30,394 gdd_calc: DEBUG Response text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</title>
+	<meta name="title" content="Illinois Climate Network: Crop Degree-Day Calculator: Results" />
+	<meta name="robots" content="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/inc/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/warm/inc/warm-styles.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/inc/print-styles.css" type="text/css" media="print" title="normal" />
+		<!--[if IE 9]>
+	<style type="text/css">
+		.condensit {font-size:1.2em;}
+	</style>
+	<![endif]-->
+	<!--[if IE 8]>
+	<style type="text/css">
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:.8em;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 7]>
+	<style type="text/css">
+		#column1 {width: 13.6em;}
+		#column2 {width: 13.6em;}
+		#column3 {width: 13.6em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;}
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:0.8em; margin-bottom:0.5em;}
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em; position:relative;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 6]>
+	<style type="text/css">
+		a.IE6white {color: #ffffff;}
+		span.inrstxt {position: relative;}
+		span.uiuctxt {position: relative;}
+		#column1 {width: 13.66em;}
+		#column2 {width: 13.66em;}
+		#column3 {width: 13.66em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;} /* IE6 */
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em;}
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="contentcolumn">
+
+	<h1 class="hidden">Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</h1>
+		<div id="header">
+    <!--<div id="inrsbar">
+    	<span class="inrstxt noprint"><a href="http://www.prairie.illinois.edu/" class="IE6white">Prairie Research Institute</a></span>
+    	<span class="uiuctxt noprint"><a class="IE6white" href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></span>
+    </div>-->
+    <div id="surveys">
+     	<h2 class="hidden">Prairie Research Institute State Scientific Surveys</h2>
+			<ul>
+				<li class="first"><a href="http://www.inhs.illinois.edu/">Illinois Natural History Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isas.illinois.edu/">Illinois State Archaeological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isgs.illinois.edu/">Illinois State Geological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="/" class="selectedsurvey">Illinois State Water Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.istc.illinois.edu/">Illinois Sustainable Technology Center</a></li>
+			</ul>
+    </div>
+    <div id="bannerimage"><!--<span id="surveyname"><a href="/"><img src="/img/parts/logo.gif" border="0" alt="Illinois State Water Survey" /></a></span>-->
+    	<span id="surveyname"><a href="http://www.illinois.edu/"><img src="/img/parts/Illinois-block-I-header.gif" height="30" border="0" alt="University of Illinois at Urbana-Champaign" /></a></span>
+    	<span id="surveyname2"><a href="/"><img src="/img/parts/ISWS-header.gif" height="27" border="0" alt="Illinois State Water Survey" /></a></span>
+    	<span id="surveyname3"><a href="http://www.prairie.illinois.edu/"><img src="/img/parts/PRI-header.gif" height="14" border="0" alt="Prairie Research Institute" /></a></span>
+     	<!--<span id="uilogo150"><a href="http://150.illinois.edu/"><img width="34" height="46" alt="University of Illinois 150 Years" src="/img/parts/IL150_logo38.png" /></a></span>-->
+    	<a href="/"><span class="homehide">&nbsp;</span></a></div>
+    <div id="navbar">
+    	<div id="navlinks">
+     		<h2 class="hidden">Navigation</h2>
+				<ul>
+					<li class="first"><a href="https://www.isws.illinois.edu/about">About</a></li>
+				  <li><a href="https://www.isws.illinois.edu/contact">Contact</a></li>
+				  <li><a href="https://www.isws.illinois.edu/research">Research</a></li>
+				  <li><a href="https://www.isws.illinois.edu/datalist">Data</a></li>
+				  <li><a href="https://www.isws.illinois.edu/publications">Publications</a></li>
+				  <!--<li><a href="http://www.library.illinois.edu/prairie/">Library</a></li>-->
+				  <li><a href="https://www.isws.illinois.edu/news">News</a></li>
+				  <li><a href="https://www.isws.illinois.edu/staff">Staff</a></li>
+				</ul>
+			</div>
+    </div>
+  </div>	<div id="toptitlebar">
+		<h2 class="warmheader"><a href="/warm/">Water and Atmospheric Resources Monitoring Program (WARM)</a></h2><!-- style="font-size: 1.75em;"-->
+	</div>	<div id="subPageMenu">
+		<a  href="/warm/weather/" class="subPageItem" style="background-image: url(/warm/images/weather.jpg);">
+			<span>
+				<span>Weather</span>
+			</span>
+		</a>
+		<a href="/warm/soil/" class="subPageItem" style="background-image: url(/warm/images/soil.jpg);">
+			<span>
+				<span>Soil</span>
+			</span>
+		</a>
+		<a href="/warm/groundwater/" class="subPageItem" style="background-image: url(/warm/images/groundwater.jpg);">
+			<span>
+				<span>Groundwater</span>
+			</span>
+		</a>
+		<a href="/warm/sediment/" class="subPageItem" style="background-image: url(/warm/images/sediment.jpg);">
+			<span>
+				<span>Sediment</span>
+			</span>
+		</a>
+		<a href="/warm/streamflow" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">
+		<!--<a href="https://waterwatch.usgs.gov/?m=real&r=il" target="_blank" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">-->
+			<span>
+				<span>Streamflow</span>
+			</span>
+		</a>
+		<a href="/warm/reservoirs" class="subPageItem" style="background-image: url(/warm/images/reservoirs.jpg);">
+			<span>
+				<span>Reservoirs</span>
+			</span>
+		</a>
+	</div>
+ 	<!--<div id="topmsgbar" class="highlightbrickred">
+		<a href="/warm/signup.asp" class="msglinktxt">Beginning in February, users will be asked to register in order to access the WARM website. </a>
+		<span class="supwarm"><a href="/warm/signup.asp">Read more...</a></span>
+	</div>-->
+
+	<div id="maincontent">
+
+	<!-- CONTENT HERE -->
+
+
+
+	
+		<!--***********************************  Menu cell on the left *************************************-->
+		<div id="warm_leftnav">
+						<!-- Menu serves both weather and soil section, with some switches. 
+
+	Page name reference:
+		weather  : /weather/*.*
+		soil     : /soil/*.*
+		icn stns : stationmetarough.asp, stationmeta.asp (other pages in the root dir)
+-->
+
+
+<div id = "leftnav_inner" style="width:12.0em;margin-bottom:1em;">
+		
+		<!--<div class="linkboxhead"></div>-->
+		
+    <!--<div class="linkboxin"><a href="/warm/about.asp">About ICN</a></div>-->
+		 <!--<p class="menuitem"><a href="/warm/news.asp"><b>Latest News!</b></a></p>-->
+		<!--<div class="linkboxin"><a href="/warm/warmdb/warmdb.asp">Available Data</a></div> WARM no longer displays this db as of 2012.05.09, per J.A. -->
+		
+
+	
+		
+		
+		<div class="linkboxhead" style="margin-top:0.3m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/weather/">Weather Data</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		
+		<div class="linkboxin"><a href="/warm/datatype.asp">Historical Data</a></div>
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/climnet/abouticn.asp">Background</a></div>		    
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+			<div class="linkboxin"><a href="/warm/dashboard.asp?">Graphs &amp; Data</a></div>
+		
+				
+		<!-- <div class="linkboxhead" style="margin-top:0m;"></div>
+		<div class="linkboxin"><a href="/warm/climnet/soilmoistexp.asp">Soil Moisture<br />Measurement Guide</a></div> -->
+		
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin" style="text-align: left;"><a href="/warm/climnet/stnmetadata.asp">Stations: Metadata</a></div>
+
+
+
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/agriculture/agriculture.asp">Agriculture</a></div>-->
+		
+		
+		
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/energy/energy.asp">Energy</a></div>-->
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=E">Calculated Parameters</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=I">Instrumentation</a></div>
+
+		
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="/warm/cropdata/">Growing Degree Day Calculator</a></div>
+
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="https://warm.isws.illinois.edu/warm/warm_pdd/default.aspx">Pest Degree Day Calculator</a></div>
+			<!-- <div class="linkboxin"><a href="/warm/pestdata/">Pest Degree Day Calculator</a></div> -->
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/pubs.asp">Publications</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/disclaimer.asp">Data Use</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/sponsorship.asp">Support WARM!</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/contact.asp">Contact Us</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+    
+		<!--<div class="linkboxtop" style="margin-top:0.3em;"><a href="/warm/climate.asp">Illinois Water &amp; Climate Summary</a></div>		-->			
+		<!--<div class="linkboxtop"><a href="/warm/soilmoist/ISWSSoilMoistureSummary.pdf">Soil Moisture Summary <span class="pdflink8">(PDF)</span></a></div>	-->	
+		<!--<div class="linkboxtop"><a href="/warm/disclaimer.asp">Data Disclaimer</a></div>	-->					
+		
+</div>
+
+
+<!--<div class="warmsidebar1">Tell us what you think of the Pest Degree Day Calculator.  <a href="https://illinois.edu/sb/sec/1753389" target="_blank">Take the survey</a>.</div>-->
+
+
+<!-- 
+	OLD Page name references, for re-referencing only. 
+		main  : default.asp
+		news  : news.asp
+		about : about.asp
+		ICWS  : climate.asp, climatearchive.asp, /desc/description.asp
+		data  : datatype.asp, datalist.asp, cdflist.asp, dayhead.asp, stationlist.asp
+		daily : weatherdata.asp, displaymap.asp
+		flow  : /pmfd/  default.asp, stations.asp, background.asp, contact.asp, flows.asp, plotdata.asp
+		bnsed : /sediment/ default.asp, about.asp, psdata.asp, stations.asp, sedmap.asp, sedparams.asp, sedview.asp, sedhelp.asp
+		stemp : soiltemp.asp
+		crop  : /cropdata/ default.asp, cropmaps.asp, cropdisplay.asp, about.asp
+		pest  : /pestdata/ default.asp 
+-->
+		</div>
+		
+		<!-- ************************************************************************************************ -->
+		
+
+		<div id="warm_content">
+
+
+			<!-- ************************************************************************************************ -->
+			<!-- **************************      Content cell on the right    *********************************** -->
+			
+			<h3>Illinois Climate Network: Crop Degree-Day Calculator: Results</h3><br />
+			
+			
+						<div style="float:right;text-align:center;margin-bottom:1em;">
+						<img src='../pestdata/images/iccarea.gif' alt='Map' />
+						</div><div><br /><br /><strong>Corn</strong> growing degree-days at <strong>Peoria</strong>. From 01/01/2024 through 5/28/2024.
+						<br /><br />
+						Actual total: <strong>881</strong><br />
+						Average (11 year): <strong>461</strong>
+						<br /><br />
+						Projected totals <font class="cls10">(based on site climate normals)</font><br />
+						&nbsp;&nbsp;&nbsp; One-week: <strong>1021</strong><br />
+						&nbsp;&nbsp;&nbsp; Two-week: <strong>1175</strong><br />
+						</div>
+						
+			
+			<br />
+			<div class="txtcentered" style="clear:right;">
+				<!--<a href="cropddcalc.asp#toptitlebar">Another Calculation</a>-->
+				<a href="cropddcalc.asp">Another Calculation</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="/warm/disclaimer.asp">Data Disclaimer</a>
+				<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="cropmaps.asp">Degree-Day Maps</a>-->
+			</div>
+
+
+				
+			<!-- ************************************************************************************************ -->
+			<!-- ************************************************************************************************ -->
+
+	
+		</div>	
+	
+	
+	<!-- Lower Navigation Row -->
+	<!--<a href="https://illinois.edu/sb/sec/3047072"><button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button></a>-->
+
+
+		
+			<br /><br /><br />
+			
+		<!-- ******************* -->
+
+		
+	
+	<script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script>
+	<!-- END CONTENT -->
+
+	</div>
+	 <div id="footerarea">
+            <div class="column_left">
+                <h3><a href="/">Illinois State Water Survey</a></h3>
+                <p>
+                    2204 Griffith Dr., MC-674<br />
+                    Champaign, IL 61820-7463<br />
+                    217-244-5459<br />
+                    <a href="mailto:info@isws.illinois.edu">Email us with questions or comments.</a>
+                </p>
+            </div>
+            <div class="column_right">
+                <h3>&nbsp;</h3>
+                <p>
+                    &copy;&thinsp;2022 University of Illinois Board of Trustees. All rights reserved.<br />
+                    For permissions information, <a href="mailto:info@isws.illinois.edu">contact the Illinois State Water Survey</a>.<br />
+                    <a href="/terms-of-use">Terms of use</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Policy</a> | <a href="mailto:web@prairie.illinois.edu">Web Administrator</a>.
+
+<!--                    <a href="/sitemap.asp">Site Map</a>-->
+                </p>
+            </div>
+        </div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3400222-1");
+pageTracker._trackPageview();
+
+var pageTrackerWARM = _gat._getTracker("UA-25423067-1");
+pageTrackerWARM._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+
+2024-05-29 23:11:30,403 gdd_calc: DEBUG Soup text: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 5/28/2024.
+						
+						Actual total: 881
+						Average (11 year): 461
+
+						Projected totals (based on site climate normals)
+						    One-week: 1021
+						    Two-week: 1175
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+2024-05-29 23:11:30,404 gdd_calc: INFO Response: Corn growing degree-days at Peoria. From 01/01/2024 through 5/28/2024.
+						
+						Actual total: 881
+						Average (11 year): 461
+
+						Projected totals (based on site climate normals)
+						    One-week: 1021
+						    Two-week: 1175
+2024-05-29 23:12:31,647 gdd_calc: INFO Payload data: {'base': '40', 'placebox': '81', 'areabox': 'cmi', 'date': '10/10', 'plap': 'Champaign'}
+2024-05-29 23:12:31,700 gdd_calc: INFO Response status code: 200
+2024-05-29 23:12:31,700 gdd_calc: DEBUG Response text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</title>
+	<meta name="title" content="Illinois Climate Network: Crop Degree-Day Calculator: Results" />
+	<meta name="robots" content="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/inc/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/warm/inc/warm-styles.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/inc/print-styles.css" type="text/css" media="print" title="normal" />
+		<!--[if IE 9]>
+	<style type="text/css">
+		.condensit {font-size:1.2em;}
+	</style>
+	<![endif]-->
+	<!--[if IE 8]>
+	<style type="text/css">
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:.8em;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 7]>
+	<style type="text/css">
+		#column1 {width: 13.6em;}
+		#column2 {width: 13.6em;}
+		#column3 {width: 13.6em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;}
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:0.8em; margin-bottom:0.5em;}
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em; position:relative;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 6]>
+	<style type="text/css">
+		a.IE6white {color: #ffffff;}
+		span.inrstxt {position: relative;}
+		span.uiuctxt {position: relative;}
+		#column1 {width: 13.66em;}
+		#column2 {width: 13.66em;}
+		#column3 {width: 13.66em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;} /* IE6 */
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em;}
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="contentcolumn">
+
+	<h1 class="hidden">Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</h1>
+		<div id="header">
+    <!--<div id="inrsbar">
+    	<span class="inrstxt noprint"><a href="http://www.prairie.illinois.edu/" class="IE6white">Prairie Research Institute</a></span>
+    	<span class="uiuctxt noprint"><a class="IE6white" href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></span>
+    </div>-->
+    <div id="surveys">
+     	<h2 class="hidden">Prairie Research Institute State Scientific Surveys</h2>
+			<ul>
+				<li class="first"><a href="http://www.inhs.illinois.edu/">Illinois Natural History Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isas.illinois.edu/">Illinois State Archaeological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isgs.illinois.edu/">Illinois State Geological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="/" class="selectedsurvey">Illinois State Water Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.istc.illinois.edu/">Illinois Sustainable Technology Center</a></li>
+			</ul>
+    </div>
+    <div id="bannerimage"><!--<span id="surveyname"><a href="/"><img src="/img/parts/logo.gif" border="0" alt="Illinois State Water Survey" /></a></span>-->
+    	<span id="surveyname"><a href="http://www.illinois.edu/"><img src="/img/parts/Illinois-block-I-header.gif" height="30" border="0" alt="University of Illinois at Urbana-Champaign" /></a></span>
+    	<span id="surveyname2"><a href="/"><img src="/img/parts/ISWS-header.gif" height="27" border="0" alt="Illinois State Water Survey" /></a></span>
+    	<span id="surveyname3"><a href="http://www.prairie.illinois.edu/"><img src="/img/parts/PRI-header.gif" height="14" border="0" alt="Prairie Research Institute" /></a></span>
+     	<!--<span id="uilogo150"><a href="http://150.illinois.edu/"><img width="34" height="46" alt="University of Illinois 150 Years" src="/img/parts/IL150_logo38.png" /></a></span>-->
+    	<a href="/"><span class="homehide">&nbsp;</span></a></div>
+    <div id="navbar">
+    	<div id="navlinks">
+     		<h2 class="hidden">Navigation</h2>
+				<ul>
+					<li class="first"><a href="https://www.isws.illinois.edu/about">About</a></li>
+				  <li><a href="https://www.isws.illinois.edu/contact">Contact</a></li>
+				  <li><a href="https://www.isws.illinois.edu/research">Research</a></li>
+				  <li><a href="https://www.isws.illinois.edu/datalist">Data</a></li>
+				  <li><a href="https://www.isws.illinois.edu/publications">Publications</a></li>
+				  <!--<li><a href="http://www.library.illinois.edu/prairie/">Library</a></li>-->
+				  <li><a href="https://www.isws.illinois.edu/news">News</a></li>
+				  <li><a href="https://www.isws.illinois.edu/staff">Staff</a></li>
+				</ul>
+			</div>
+    </div>
+  </div>	<div id="toptitlebar">
+		<h2 class="warmheader"><a href="/warm/">Water and Atmospheric Resources Monitoring Program (WARM)</a></h2><!-- style="font-size: 1.75em;"-->
+	</div>	<div id="subPageMenu">
+		<a  href="/warm/weather/" class="subPageItem" style="background-image: url(/warm/images/weather.jpg);">
+			<span>
+				<span>Weather</span>
+			</span>
+		</a>
+		<a href="/warm/soil/" class="subPageItem" style="background-image: url(/warm/images/soil.jpg);">
+			<span>
+				<span>Soil</span>
+			</span>
+		</a>
+		<a href="/warm/groundwater/" class="subPageItem" style="background-image: url(/warm/images/groundwater.jpg);">
+			<span>
+				<span>Groundwater</span>
+			</span>
+		</a>
+		<a href="/warm/sediment/" class="subPageItem" style="background-image: url(/warm/images/sediment.jpg);">
+			<span>
+				<span>Sediment</span>
+			</span>
+		</a>
+		<a href="/warm/streamflow" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">
+		<!--<a href="https://waterwatch.usgs.gov/?m=real&r=il" target="_blank" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">-->
+			<span>
+				<span>Streamflow</span>
+			</span>
+		</a>
+		<a href="/warm/reservoirs" class="subPageItem" style="background-image: url(/warm/images/reservoirs.jpg);">
+			<span>
+				<span>Reservoirs</span>
+			</span>
+		</a>
+	</div>
+ 	<!--<div id="topmsgbar" class="highlightbrickred">
+		<a href="/warm/signup.asp" class="msglinktxt">Beginning in February, users will be asked to register in order to access the WARM website. </a>
+		<span class="supwarm"><a href="/warm/signup.asp">Read more...</a></span>
+	</div>-->
+
+	<div id="maincontent">
+
+	<!-- CONTENT HERE -->
+
+
+
+	
+		<!--***********************************  Menu cell on the left *************************************-->
+		<div id="warm_leftnav">
+						<!-- Menu serves both weather and soil section, with some switches. 
+
+	Page name reference:
+		weather  : /weather/*.*
+		soil     : /soil/*.*
+		icn stns : stationmetarough.asp, stationmeta.asp (other pages in the root dir)
+-->
+
+
+<div id = "leftnav_inner" style="width:12.0em;margin-bottom:1em;">
+		
+		<!--<div class="linkboxhead"></div>-->
+		
+    <!--<div class="linkboxin"><a href="/warm/about.asp">About ICN</a></div>-->
+		 <!--<p class="menuitem"><a href="/warm/news.asp"><b>Latest News!</b></a></p>-->
+		<!--<div class="linkboxin"><a href="/warm/warmdb/warmdb.asp">Available Data</a></div> WARM no longer displays this db as of 2012.05.09, per J.A. -->
+		
+
+	
+		
+		
+		<div class="linkboxhead" style="margin-top:0.3m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/weather/">Weather Data</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		
+		<div class="linkboxin"><a href="/warm/datatype.asp">Historical Data</a></div>
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/climnet/abouticn.asp">Background</a></div>		    
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+			<div class="linkboxin"><a href="/warm/dashboard.asp?">Graphs &amp; Data</a></div>
+		
+				
+		<!-- <div class="linkboxhead" style="margin-top:0m;"></div>
+		<div class="linkboxin"><a href="/warm/climnet/soilmoistexp.asp">Soil Moisture<br />Measurement Guide</a></div> -->
+		
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin" style="text-align: left;"><a href="/warm/climnet/stnmetadata.asp">Stations: Metadata</a></div>
+
+
+
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/agriculture/agriculture.asp">Agriculture</a></div>-->
+		
+		
+		
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/energy/energy.asp">Energy</a></div>-->
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=E">Calculated Parameters</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=I">Instrumentation</a></div>
+
+		
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="/warm/cropdata/">Growing Degree Day Calculator</a></div>
+
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="https://warm.isws.illinois.edu/warm/warm_pdd/default.aspx">Pest Degree Day Calculator</a></div>
+			<!-- <div class="linkboxin"><a href="/warm/pestdata/">Pest Degree Day Calculator</a></div> -->
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/pubs.asp">Publications</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/disclaimer.asp">Data Use</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/sponsorship.asp">Support WARM!</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/contact.asp">Contact Us</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+    
+		<!--<div class="linkboxtop" style="margin-top:0.3em;"><a href="/warm/climate.asp">Illinois Water &amp; Climate Summary</a></div>		-->			
+		<!--<div class="linkboxtop"><a href="/warm/soilmoist/ISWSSoilMoistureSummary.pdf">Soil Moisture Summary <span class="pdflink8">(PDF)</span></a></div>	-->	
+		<!--<div class="linkboxtop"><a href="/warm/disclaimer.asp">Data Disclaimer</a></div>	-->					
+		
+</div>
+
+
+<!--<div class="warmsidebar1">Tell us what you think of the Pest Degree Day Calculator.  <a href="https://illinois.edu/sb/sec/1753389" target="_blank">Take the survey</a>.</div>-->
+
+
+<!-- 
+	OLD Page name references, for re-referencing only. 
+		main  : default.asp
+		news  : news.asp
+		about : about.asp
+		ICWS  : climate.asp, climatearchive.asp, /desc/description.asp
+		data  : datatype.asp, datalist.asp, cdflist.asp, dayhead.asp, stationlist.asp
+		daily : weatherdata.asp, displaymap.asp
+		flow  : /pmfd/  default.asp, stations.asp, background.asp, contact.asp, flows.asp, plotdata.asp
+		bnsed : /sediment/ default.asp, about.asp, psdata.asp, stations.asp, sedmap.asp, sedparams.asp, sedview.asp, sedhelp.asp
+		stemp : soiltemp.asp
+		crop  : /cropdata/ default.asp, cropmaps.asp, cropdisplay.asp, about.asp
+		pest  : /pestdata/ default.asp 
+-->
+		</div>
+		
+		<!-- ************************************************************************************************ -->
+		
+
+		<div id="warm_content">
+
+
+			<!-- ************************************************************************************************ -->
+			<!-- **************************      Content cell on the right    *********************************** -->
+			
+			<h3>Illinois Climate Network: Crop Degree-Day Calculator: Results</h3><br />
+			
+			
+						<p>Please enter a date that is in the past.</p>
+						<p>Please try again.</p>		
+			
+			<br />
+			<div class="txtcentered" style="clear:right;">
+				<!--<a href="cropddcalc.asp#toptitlebar">Another Calculation</a>-->
+				<a href="cropddcalc.asp">Another Calculation</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="/warm/disclaimer.asp">Data Disclaimer</a>
+				<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="cropmaps.asp">Degree-Day Maps</a>-->
+			</div>
+
+
+				
+			<!-- ************************************************************************************************ -->
+			<!-- ************************************************************************************************ -->
+
+	
+		</div>	
+	
+	
+	<!-- Lower Navigation Row -->
+	<!--<a href="https://illinois.edu/sb/sec/3047072"><button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button></a>-->
+
+
+		
+			<br /><br /><br />
+			
+		<!-- ******************* -->
+
+		
+	
+	<script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script>
+	<!-- END CONTENT -->
+
+	</div>
+	 <div id="footerarea">
+            <div class="column_left">
+                <h3><a href="/">Illinois State Water Survey</a></h3>
+                <p>
+                    2204 Griffith Dr., MC-674<br />
+                    Champaign, IL 61820-7463<br />
+                    217-244-5459<br />
+                    <a href="mailto:info@isws.illinois.edu">Email us with questions or comments.</a>
+                </p>
+            </div>
+            <div class="column_right">
+                <h3>&nbsp;</h3>
+                <p>
+                    &copy;&thinsp;2022 University of Illinois Board of Trustees. All rights reserved.<br />
+                    For permissions information, <a href="mailto:info@isws.illinois.edu">contact the Illinois State Water Survey</a>.<br />
+                    <a href="/terms-of-use">Terms of use</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Policy</a> | <a href="mailto:web@prairie.illinois.edu">Web Administrator</a>.
+
+<!--                    <a href="/sitemap.asp">Site Map</a>-->
+                </p>
+            </div>
+        </div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3400222-1");
+pageTracker._trackPageview();
+
+var pageTrackerWARM = _gat._getTracker("UA-25423067-1");
+pageTrackerWARM._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+
+2024-05-29 23:12:31,707 gdd_calc: DEBUG Soup text: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+Please enter a date that is in the past.
+Please try again.
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+2024-05-29 23:12:31,708 gdd_calc: ERROR Error in getting response
+2024-05-29 23:13:19,551 gdd_calc: INFO Payload data: {'base': '40', 'placebox': '6', 'areabox': 'mon', 'date': '01/02', 'plap': 'Monmouth'}
+2024-05-29 23:13:21,909 gdd_calc: INFO Response status code: 200
+2024-05-29 23:13:21,909 gdd_calc: DEBUG Response text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</title>
+	<meta name="title" content="Illinois Climate Network: Crop Degree-Day Calculator: Results" />
+	<meta name="robots" content="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/inc/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/warm/inc/warm-styles.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/inc/print-styles.css" type="text/css" media="print" title="normal" />
+		<!--[if IE 9]>
+	<style type="text/css">
+		.condensit {font-size:1.2em;}
+	</style>
+	<![endif]-->
+	<!--[if IE 8]>
+	<style type="text/css">
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:.8em;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 7]>
+	<style type="text/css">
+		#column1 {width: 13.6em;}
+		#column2 {width: 13.6em;}
+		#column3 {width: 13.6em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;}
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:0.8em; margin-bottom:0.5em;}
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em; position:relative;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 6]>
+	<style type="text/css">
+		a.IE6white {color: #ffffff;}
+		span.inrstxt {position: relative;}
+		span.uiuctxt {position: relative;}
+		#column1 {width: 13.66em;}
+		#column2 {width: 13.66em;}
+		#column3 {width: 13.66em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;} /* IE6 */
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em;}
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="contentcolumn">
+
+	<h1 class="hidden">Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</h1>
+		<div id="header">
+    <!--<div id="inrsbar">
+    	<span class="inrstxt noprint"><a href="http://www.prairie.illinois.edu/" class="IE6white">Prairie Research Institute</a></span>
+    	<span class="uiuctxt noprint"><a class="IE6white" href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></span>
+    </div>-->
+    <div id="surveys">
+     	<h2 class="hidden">Prairie Research Institute State Scientific Surveys</h2>
+			<ul>
+				<li class="first"><a href="http://www.inhs.illinois.edu/">Illinois Natural History Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isas.illinois.edu/">Illinois State Archaeological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isgs.illinois.edu/">Illinois State Geological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="/" class="selectedsurvey">Illinois State Water Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.istc.illinois.edu/">Illinois Sustainable Technology Center</a></li>
+			</ul>
+    </div>
+    <div id="bannerimage"><!--<span id="surveyname"><a href="/"><img src="/img/parts/logo.gif" border="0" alt="Illinois State Water Survey" /></a></span>-->
+    	<span id="surveyname"><a href="http://www.illinois.edu/"><img src="/img/parts/Illinois-block-I-header.gif" height="30" border="0" alt="University of Illinois at Urbana-Champaign" /></a></span>
+    	<span id="surveyname2"><a href="/"><img src="/img/parts/ISWS-header.gif" height="27" border="0" alt="Illinois State Water Survey" /></a></span>
+    	<span id="surveyname3"><a href="http://www.prairie.illinois.edu/"><img src="/img/parts/PRI-header.gif" height="14" border="0" alt="Prairie Research Institute" /></a></span>
+     	<!--<span id="uilogo150"><a href="http://150.illinois.edu/"><img width="34" height="46" alt="University of Illinois 150 Years" src="/img/parts/IL150_logo38.png" /></a></span>-->
+    	<a href="/"><span class="homehide">&nbsp;</span></a></div>
+    <div id="navbar">
+    	<div id="navlinks">
+     		<h2 class="hidden">Navigation</h2>
+				<ul>
+					<li class="first"><a href="https://www.isws.illinois.edu/about">About</a></li>
+				  <li><a href="https://www.isws.illinois.edu/contact">Contact</a></li>
+				  <li><a href="https://www.isws.illinois.edu/research">Research</a></li>
+				  <li><a href="https://www.isws.illinois.edu/datalist">Data</a></li>
+				  <li><a href="https://www.isws.illinois.edu/publications">Publications</a></li>
+				  <!--<li><a href="http://www.library.illinois.edu/prairie/">Library</a></li>-->
+				  <li><a href="https://www.isws.illinois.edu/news">News</a></li>
+				  <li><a href="https://www.isws.illinois.edu/staff">Staff</a></li>
+				</ul>
+			</div>
+    </div>
+  </div>	<div id="toptitlebar">
+		<h2 class="warmheader"><a href="/warm/">Water and Atmospheric Resources Monitoring Program (WARM)</a></h2><!-- style="font-size: 1.75em;"-->
+	</div>	<div id="subPageMenu">
+		<a  href="/warm/weather/" class="subPageItem" style="background-image: url(/warm/images/weather.jpg);">
+			<span>
+				<span>Weather</span>
+			</span>
+		</a>
+		<a href="/warm/soil/" class="subPageItem" style="background-image: url(/warm/images/soil.jpg);">
+			<span>
+				<span>Soil</span>
+			</span>
+		</a>
+		<a href="/warm/groundwater/" class="subPageItem" style="background-image: url(/warm/images/groundwater.jpg);">
+			<span>
+				<span>Groundwater</span>
+			</span>
+		</a>
+		<a href="/warm/sediment/" class="subPageItem" style="background-image: url(/warm/images/sediment.jpg);">
+			<span>
+				<span>Sediment</span>
+			</span>
+		</a>
+		<a href="/warm/streamflow" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">
+		<!--<a href="https://waterwatch.usgs.gov/?m=real&r=il" target="_blank" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">-->
+			<span>
+				<span>Streamflow</span>
+			</span>
+		</a>
+		<a href="/warm/reservoirs" class="subPageItem" style="background-image: url(/warm/images/reservoirs.jpg);">
+			<span>
+				<span>Reservoirs</span>
+			</span>
+		</a>
+	</div>
+ 	<!--<div id="topmsgbar" class="highlightbrickred">
+		<a href="/warm/signup.asp" class="msglinktxt">Beginning in February, users will be asked to register in order to access the WARM website. </a>
+		<span class="supwarm"><a href="/warm/signup.asp">Read more...</a></span>
+	</div>-->
+
+	<div id="maincontent">
+
+	<!-- CONTENT HERE -->
+
+
+
+	
+		<!--***********************************  Menu cell on the left *************************************-->
+		<div id="warm_leftnav">
+						<!-- Menu serves both weather and soil section, with some switches. 
+
+	Page name reference:
+		weather  : /weather/*.*
+		soil     : /soil/*.*
+		icn stns : stationmetarough.asp, stationmeta.asp (other pages in the root dir)
+-->
+
+
+<div id = "leftnav_inner" style="width:12.0em;margin-bottom:1em;">
+		
+		<!--<div class="linkboxhead"></div>-->
+		
+    <!--<div class="linkboxin"><a href="/warm/about.asp">About ICN</a></div>-->
+		 <!--<p class="menuitem"><a href="/warm/news.asp"><b>Latest News!</b></a></p>-->
+		<!--<div class="linkboxin"><a href="/warm/warmdb/warmdb.asp">Available Data</a></div> WARM no longer displays this db as of 2012.05.09, per J.A. -->
+		
+
+	
+		
+		
+		<div class="linkboxhead" style="margin-top:0.3m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/weather/">Weather Data</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		
+		<div class="linkboxin"><a href="/warm/datatype.asp">Historical Data</a></div>
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/climnet/abouticn.asp">Background</a></div>		    
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+			<div class="linkboxin"><a href="/warm/dashboard.asp?">Graphs &amp; Data</a></div>
+		
+				
+		<!-- <div class="linkboxhead" style="margin-top:0m;"></div>
+		<div class="linkboxin"><a href="/warm/climnet/soilmoistexp.asp">Soil Moisture<br />Measurement Guide</a></div> -->
+		
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin" style="text-align: left;"><a href="/warm/climnet/stnmetadata.asp">Stations: Metadata</a></div>
+
+
+
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/agriculture/agriculture.asp">Agriculture</a></div>-->
+		
+		
+		
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/energy/energy.asp">Energy</a></div>-->
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=E">Calculated Parameters</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=I">Instrumentation</a></div>
+
+		
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="/warm/cropdata/">Growing Degree Day Calculator</a></div>
+
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="https://warm.isws.illinois.edu/warm/warm_pdd/default.aspx">Pest Degree Day Calculator</a></div>
+			<!-- <div class="linkboxin"><a href="/warm/pestdata/">Pest Degree Day Calculator</a></div> -->
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/pubs.asp">Publications</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/disclaimer.asp">Data Use</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/sponsorship.asp">Support WARM!</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/contact.asp">Contact Us</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+    
+		<!--<div class="linkboxtop" style="margin-top:0.3em;"><a href="/warm/climate.asp">Illinois Water &amp; Climate Summary</a></div>		-->			
+		<!--<div class="linkboxtop"><a href="/warm/soilmoist/ISWSSoilMoistureSummary.pdf">Soil Moisture Summary <span class="pdflink8">(PDF)</span></a></div>	-->	
+		<!--<div class="linkboxtop"><a href="/warm/disclaimer.asp">Data Disclaimer</a></div>	-->					
+		
+</div>
+
+
+<!--<div class="warmsidebar1">Tell us what you think of the Pest Degree Day Calculator.  <a href="https://illinois.edu/sb/sec/1753389" target="_blank">Take the survey</a>.</div>-->
+
+
+<!-- 
+	OLD Page name references, for re-referencing only. 
+		main  : default.asp
+		news  : news.asp
+		about : about.asp
+		ICWS  : climate.asp, climatearchive.asp, /desc/description.asp
+		data  : datatype.asp, datalist.asp, cdflist.asp, dayhead.asp, stationlist.asp
+		daily : weatherdata.asp, displaymap.asp
+		flow  : /pmfd/  default.asp, stations.asp, background.asp, contact.asp, flows.asp, plotdata.asp
+		bnsed : /sediment/ default.asp, about.asp, psdata.asp, stations.asp, sedmap.asp, sedparams.asp, sedview.asp, sedhelp.asp
+		stemp : soiltemp.asp
+		crop  : /cropdata/ default.asp, cropmaps.asp, cropdisplay.asp, about.asp
+		pest  : /pestdata/ default.asp 
+-->
+		</div>
+		
+		<!-- ************************************************************************************************ -->
+		
+
+		<div id="warm_content">
+
+
+			<!-- ************************************************************************************************ -->
+			<!-- **************************      Content cell on the right    *********************************** -->
+			
+			<h3>Illinois Climate Network: Crop Degree-Day Calculator: Results</h3><br />
+			
+			
+						<div style="float:right;text-align:center;margin-bottom:1em;">
+						<img src='../pestdata/images/monarea.gif' alt='Map' />
+						</div><div><br /><br />Crop growing degree-days (base 40&#176; F) at <strong>Monmouth</strong>. From 01/02/2024 through 5/28/2024.
+						<br /><br />
+						Actual total: <strong>1435</strong><br />
+						Average (11 year): <strong>1029</strong>
+						<br /><br />
+						Projected totals <font class="cls10">(based on site climate normals)</font><br />
+						&nbsp;&nbsp;&nbsp; One-week: <strong>1644</strong><br />
+						&nbsp;&nbsp;&nbsp; Two-week: <strong>1866</strong><br />
+						</div>
+						
+			
+			<br />
+			<div class="txtcentered" style="clear:right;">
+				<!--<a href="cropddcalc.asp#toptitlebar">Another Calculation</a>-->
+				<a href="cropddcalc.asp">Another Calculation</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="/warm/disclaimer.asp">Data Disclaimer</a>
+				<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="cropmaps.asp">Degree-Day Maps</a>-->
+			</div>
+
+
+				
+			<!-- ************************************************************************************************ -->
+			<!-- ************************************************************************************************ -->
+
+	
+		</div>	
+	
+	
+	<!-- Lower Navigation Row -->
+	<!--<a href="https://illinois.edu/sb/sec/3047072"><button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button></a>-->
+
+
+		
+			<br /><br /><br />
+			
+		<!-- ******************* -->
+
+		
+	
+	<script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script>
+	<!-- END CONTENT -->
+
+	</div>
+	 <div id="footerarea">
+            <div class="column_left">
+                <h3><a href="/">Illinois State Water Survey</a></h3>
+                <p>
+                    2204 Griffith Dr., MC-674<br />
+                    Champaign, IL 61820-7463<br />
+                    217-244-5459<br />
+                    <a href="mailto:info@isws.illinois.edu">Email us with questions or comments.</a>
+                </p>
+            </div>
+            <div class="column_right">
+                <h3>&nbsp;</h3>
+                <p>
+                    &copy;&thinsp;2022 University of Illinois Board of Trustees. All rights reserved.<br />
+                    For permissions information, <a href="mailto:info@isws.illinois.edu">contact the Illinois State Water Survey</a>.<br />
+                    <a href="/terms-of-use">Terms of use</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Policy</a> | <a href="mailto:web@prairie.illinois.edu">Web Administrator</a>.
+
+<!--                    <a href="/sitemap.asp">Site Map</a>-->
+                </p>
+            </div>
+        </div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3400222-1");
+pageTracker._trackPageview();
+
+var pageTrackerWARM = _gat._getTracker("UA-25423067-1");
+pageTrackerWARM._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+
+2024-05-29 23:13:21,914 gdd_calc: DEBUG Soup text: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Crop growing degree-days (base 40° F) at Monmouth. From 01/02/2024 through 5/28/2024.
+						
+						Actual total: 1435
+						Average (11 year): 1029
+
+						Projected totals (based on site climate normals)
+						    One-week: 1644
+						    Two-week: 1866
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+2024-05-29 23:13:21,914 gdd_calc: INFO Response: Crop growing degree-days (base 40° F) at Monmouth. From 01/02/2024 through 5/28/2024.
+						
+						Actual total: 1435
+						Average (11 year): 1029
+
+						Projected totals (based on site climate normals)
+						    One-week: 1644
+						    Two-week: 1866
+2024-05-29 23:13:35,637 gdd_calc: ERROR City "Dubai" not found in the file
+2024-05-30 13:06:20,485 gdd_calc: INFO Payload data: {'base': '50', 'placebox': '8', 'areabox': 'icc', 'date': '01/01', 'plap': 'Peoria'}
+2024-05-30 13:06:22,258 gdd_calc: INFO Response status code: 200
+2024-05-30 13:06:22,259 gdd_calc: DEBUG Response text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</title>
+	<meta name="title" content="Illinois Climate Network: Crop Degree-Day Calculator: Results" />
+	<meta name="robots" content="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/inc/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/warm/inc/warm-styles.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/inc/print-styles.css" type="text/css" media="print" title="normal" />
+		<!--[if IE 9]>
+	<style type="text/css">
+		.condensit {font-size:1.2em;}
+	</style>
+	<![endif]-->
+	<!--[if IE 8]>
+	<style type="text/css">
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:.8em;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 7]>
+	<style type="text/css">
+		#column1 {width: 13.6em;}
+		#column2 {width: 13.6em;}
+		#column3 {width: 13.6em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;}
+		#googlesearchbox #cse-search-box #submit {height: 1.7em; font-size: .8em; line-height:0.8em; margin-bottom:0.5em;}
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em; position:relative;}
+    /* .nivo-caption a strong,.nivo-caption a:link strong,.nivo-caption a:hover strong {font-size:1.1em;letter-spacing:-0.03em;} */
+	</style>
+	<![endif]-->
+	<!--[if IE 6]>
+	<style type="text/css">
+		a.IE6white {color: #ffffff;}
+		span.inrstxt {position: relative;}
+		span.uiuctxt {position: relative;}
+		#column1 {width: 13.66em;}
+		#column2 {width: 13.66em;}
+		#column3 {width: 13.66em;}
+		#column4 {width: 13.50em;}
+		ul.zermrg {margin: 0em 0em 0em 3.65em;} /* IE6 */
+		#navbar #navlinks li {display: inline;}
+		#header #inrsbar {padding-bottom:.1em;}
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="contentcolumn">
+
+	<h1 class="hidden">Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey</h1>
+		<div id="header">
+    <!--<div id="inrsbar">
+    	<span class="inrstxt noprint"><a href="http://www.prairie.illinois.edu/" class="IE6white">Prairie Research Institute</a></span>
+    	<span class="uiuctxt noprint"><a class="IE6white" href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></span>
+    </div>-->
+    <div id="surveys">
+     	<h2 class="hidden">Prairie Research Institute State Scientific Surveys</h2>
+			<ul>
+				<li class="first"><a href="http://www.inhs.illinois.edu/">Illinois Natural History Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isas.illinois.edu/">Illinois State Archaeological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.isgs.illinois.edu/">Illinois State Geological Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="/" class="selectedsurvey">Illinois State Water Survey</a></li>
+					<li class="navmarker">|</li>
+				<li><a href="http://www.istc.illinois.edu/">Illinois Sustainable Technology Center</a></li>
+			</ul>
+    </div>
+    <div id="bannerimage"><!--<span id="surveyname"><a href="/"><img src="/img/parts/logo.gif" border="0" alt="Illinois State Water Survey" /></a></span>-->
+    	<span id="surveyname"><a href="http://www.illinois.edu/"><img src="/img/parts/Illinois-block-I-header.gif" height="30" border="0" alt="University of Illinois at Urbana-Champaign" /></a></span>
+    	<span id="surveyname2"><a href="/"><img src="/img/parts/ISWS-header.gif" height="27" border="0" alt="Illinois State Water Survey" /></a></span>
+    	<span id="surveyname3"><a href="http://www.prairie.illinois.edu/"><img src="/img/parts/PRI-header.gif" height="14" border="0" alt="Prairie Research Institute" /></a></span>
+     	<!--<span id="uilogo150"><a href="http://150.illinois.edu/"><img width="34" height="46" alt="University of Illinois 150 Years" src="/img/parts/IL150_logo38.png" /></a></span>-->
+    	<a href="/"><span class="homehide">&nbsp;</span></a></div>
+    <div id="navbar">
+    	<div id="navlinks">
+     		<h2 class="hidden">Navigation</h2>
+				<ul>
+					<li class="first"><a href="https://www.isws.illinois.edu/about">About</a></li>
+				  <li><a href="https://www.isws.illinois.edu/contact">Contact</a></li>
+				  <li><a href="https://www.isws.illinois.edu/research">Research</a></li>
+				  <li><a href="https://www.isws.illinois.edu/datalist">Data</a></li>
+				  <li><a href="https://www.isws.illinois.edu/publications">Publications</a></li>
+				  <!--<li><a href="http://www.library.illinois.edu/prairie/">Library</a></li>-->
+				  <li><a href="https://www.isws.illinois.edu/news">News</a></li>
+				  <li><a href="https://www.isws.illinois.edu/staff">Staff</a></li>
+				</ul>
+			</div>
+    </div>
+  </div>	<div id="toptitlebar">
+		<h2 class="warmheader"><a href="/warm/">Water and Atmospheric Resources Monitoring Program (WARM)</a></h2><!-- style="font-size: 1.75em;"-->
+	</div>	<div id="subPageMenu">
+		<a  href="/warm/weather/" class="subPageItem" style="background-image: url(/warm/images/weather.jpg);">
+			<span>
+				<span>Weather</span>
+			</span>
+		</a>
+		<a href="/warm/soil/" class="subPageItem" style="background-image: url(/warm/images/soil.jpg);">
+			<span>
+				<span>Soil</span>
+			</span>
+		</a>
+		<a href="/warm/groundwater/" class="subPageItem" style="background-image: url(/warm/images/groundwater.jpg);">
+			<span>
+				<span>Groundwater</span>
+			</span>
+		</a>
+		<a href="/warm/sediment/" class="subPageItem" style="background-image: url(/warm/images/sediment.jpg);">
+			<span>
+				<span>Sediment</span>
+			</span>
+		</a>
+		<a href="/warm/streamflow" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">
+		<!--<a href="https://waterwatch.usgs.gov/?m=real&r=il" target="_blank" class="subPageItem" style="background-image: url(/warm/images/streamflow.jpg);">-->
+			<span>
+				<span>Streamflow</span>
+			</span>
+		</a>
+		<a href="/warm/reservoirs" class="subPageItem" style="background-image: url(/warm/images/reservoirs.jpg);">
+			<span>
+				<span>Reservoirs</span>
+			</span>
+		</a>
+	</div>
+ 	<!--<div id="topmsgbar" class="highlightbrickred">
+		<a href="/warm/signup.asp" class="msglinktxt">Beginning in February, users will be asked to register in order to access the WARM website. </a>
+		<span class="supwarm"><a href="/warm/signup.asp">Read more...</a></span>
+	</div>-->
+
+	<div id="maincontent">
+
+	<!-- CONTENT HERE -->
+
+
+
+	
+		<!--***********************************  Menu cell on the left *************************************-->
+		<div id="warm_leftnav">
+						<!-- Menu serves both weather and soil section, with some switches. 
+
+	Page name reference:
+		weather  : /weather/*.*
+		soil     : /soil/*.*
+		icn stns : stationmetarough.asp, stationmeta.asp (other pages in the root dir)
+-->
+
+
+<div id = "leftnav_inner" style="width:12.0em;margin-bottom:1em;">
+		
+		<!--<div class="linkboxhead"></div>-->
+		
+    <!--<div class="linkboxin"><a href="/warm/about.asp">About ICN</a></div>-->
+		 <!--<p class="menuitem"><a href="/warm/news.asp"><b>Latest News!</b></a></p>-->
+		<!--<div class="linkboxin"><a href="/warm/warmdb/warmdb.asp">Available Data</a></div> WARM no longer displays this db as of 2012.05.09, per J.A. -->
+		
+
+	
+		
+		
+		<div class="linkboxhead" style="margin-top:0.3m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/weather/">Weather Data</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		
+		<div class="linkboxin"><a href="/warm/datatype.asp">Historical Data</a></div>
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+		<div class="linkboxin"><a href="/warm/climnet/abouticn.asp">Background</a></div>		    
+		<div class="linkboxhead" style="margin-top:0m;"></div>
+		
+			<div class="linkboxin"><a href="/warm/dashboard.asp?">Graphs &amp; Data</a></div>
+		
+				
+		<!-- <div class="linkboxhead" style="margin-top:0m;"></div>
+		<div class="linkboxin"><a href="/warm/climnet/soilmoistexp.asp">Soil Moisture<br />Measurement Guide</a></div> -->
+		
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin" style="text-align: left;"><a href="/warm/climnet/stnmetadata.asp">Stations: Metadata</a></div>
+
+
+
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/agriculture/agriculture.asp">Agriculture</a></div>-->
+		
+		
+		
+		<!--<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/energy/energy.asp">Energy</a></div>-->
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=E">Calculated Parameters</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/icninfo.asp?type=I">Instrumentation</a></div>
+
+		
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="/warm/cropdata/">Growing Degree Day Calculator</a></div>
+
+			<div class="linkboxhead" style="margin-top:0em;"></div>
+			<div class="linkboxin"><a href="https://warm.isws.illinois.edu/warm/warm_pdd/default.aspx">Pest Degree Day Calculator</a></div>
+			<!-- <div class="linkboxin"><a href="/warm/pestdata/">Pest Degree Day Calculator</a></div> -->
+		
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/pubs.asp">Publications</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/disclaimer.asp">Data Use</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/sponsorship.asp">Support WARM!</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+		<div class="linkboxin"><a href="/warm/contact.asp">Contact Us</a></div>
+
+		<div class="linkboxhead" style="margin-top:0em;"></div>
+    
+		<!--<div class="linkboxtop" style="margin-top:0.3em;"><a href="/warm/climate.asp">Illinois Water &amp; Climate Summary</a></div>		-->			
+		<!--<div class="linkboxtop"><a href="/warm/soilmoist/ISWSSoilMoistureSummary.pdf">Soil Moisture Summary <span class="pdflink8">(PDF)</span></a></div>	-->	
+		<!--<div class="linkboxtop"><a href="/warm/disclaimer.asp">Data Disclaimer</a></div>	-->					
+		
+</div>
+
+
+<!--<div class="warmsidebar1">Tell us what you think of the Pest Degree Day Calculator.  <a href="https://illinois.edu/sb/sec/1753389" target="_blank">Take the survey</a>.</div>-->
+
+
+<!-- 
+	OLD Page name references, for re-referencing only. 
+		main  : default.asp
+		news  : news.asp
+		about : about.asp
+		ICWS  : climate.asp, climatearchive.asp, /desc/description.asp
+		data  : datatype.asp, datalist.asp, cdflist.asp, dayhead.asp, stationlist.asp
+		daily : weatherdata.asp, displaymap.asp
+		flow  : /pmfd/  default.asp, stations.asp, background.asp, contact.asp, flows.asp, plotdata.asp
+		bnsed : /sediment/ default.asp, about.asp, psdata.asp, stations.asp, sedmap.asp, sedparams.asp, sedview.asp, sedhelp.asp
+		stemp : soiltemp.asp
+		crop  : /cropdata/ default.asp, cropmaps.asp, cropdisplay.asp, about.asp
+		pest  : /pestdata/ default.asp 
+-->
+		</div>
+		
+		<!-- ************************************************************************************************ -->
+		
+
+		<div id="warm_content">
+
+
+			<!-- ************************************************************************************************ -->
+			<!-- **************************      Content cell on the right    *********************************** -->
+			
+			<h3>Illinois Climate Network: Crop Degree-Day Calculator: Results</h3><br />
+			
+			
+						<div style="float:right;text-align:center;margin-bottom:1em;">
+						<img src='../pestdata/images/iccarea.gif' alt='Map' />
+						</div><div><br /><br /><strong>Corn</strong> growing degree-days at <strong>Peoria</strong>. From 01/01/2024 through 5/29/2024.
+						<br /><br />
+						Actual total: <strong>894</strong><br />
+						Average (11 year): <strong>483</strong>
+						<br /><br />
+						Projected totals <font class="cls10">(based on site climate normals)</font><br />
+						&nbsp;&nbsp;&nbsp; One-week: <strong>1034</strong><br />
+						&nbsp;&nbsp;&nbsp; Two-week: <strong>1188</strong><br />
+						</div>
+						
+			
+			<br />
+			<div class="txtcentered" style="clear:right;">
+				<!--<a href="cropddcalc.asp#toptitlebar">Another Calculation</a>-->
+				<a href="cropddcalc.asp">Another Calculation</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="/warm/disclaimer.asp">Data Disclaimer</a>
+				<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="cropmaps.asp">Degree-Day Maps</a>-->
+			</div>
+
+
+				
+			<!-- ************************************************************************************************ -->
+			<!-- ************************************************************************************************ -->
+
+	
+		</div>	
+	
+	
+	<!-- Lower Navigation Row -->
+	<!--<a href="https://illinois.edu/sb/sec/3047072"><button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button></a>-->
+
+
+		
+			<br /><br /><br />
+			
+		<!-- ******************* -->
+
+		
+	
+	<script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script>
+	<!-- END CONTENT -->
+
+	</div>
+	 <div id="footerarea">
+            <div class="column_left">
+                <h3><a href="/">Illinois State Water Survey</a></h3>
+                <p>
+                    2204 Griffith Dr., MC-674<br />
+                    Champaign, IL 61820-7463<br />
+                    217-244-5459<br />
+                    <a href="mailto:info@isws.illinois.edu">Email us with questions or comments.</a>
+                </p>
+            </div>
+            <div class="column_right">
+                <h3>&nbsp;</h3>
+                <p>
+                    &copy;&thinsp;2022 University of Illinois Board of Trustees. All rights reserved.<br />
+                    For permissions information, <a href="mailto:info@isws.illinois.edu">contact the Illinois State Water Survey</a>.<br />
+                    <a href="/terms-of-use">Terms of use</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Policy</a> | <a href="mailto:web@prairie.illinois.edu">Web Administrator</a>.
+
+<!--                    <a href="/sitemap.asp">Site Map</a>-->
+                </p>
+            </div>
+        </div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3400222-1");
+pageTracker._trackPageview();
+
+var pageTrackerWARM = _gat._getTracker("UA-25423067-1");
+pageTrackerWARM._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+
+2024-05-30 13:06:22,268 gdd_calc: DEBUG Soup text: 
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results, Illinois State Water Survey
+
+
+
+Prairie Research Institute State Scientific Surveys
+
+Illinois Natural History Survey
+|
+Illinois State Archaeological Survey
+|
+Illinois State Geological Survey
+|
+Illinois State Water Survey
+|
+Illinois Sustainable Technology Center
+
+
+
+
+
+
+
+ 
+
+
+Navigation
+
+About
+Contact
+Research
+Data
+Publications
+
+News
+Staff
+
+
+
+ 
+Water and Atmospheric Resources Monitoring Program (WARM)
+ 
+
+
+Weather
+
+
+
+
+Soil
+
+
+
+
+Groundwater
+
+
+
+
+Sediment
+
+
+
+
+
+Streamflow
+
+
+
+
+Reservoirs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weather Data
+
+Historical Data
+
+Background
+
+Graphs & Data
+
+
+Stations: Metadata
+
+
+
+Calculated Parameters
+
+Instrumentation
+
+Growing Degree Day Calculator
+
+Pest Degree Day Calculator
+
+
+Publications
+
+Data Use
+
+Support WARM!
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois Climate Network: Crop Degree-Day Calculator: Results
+
+
+Corn growing degree-days at Peoria. From 01/01/2024 through 5/29/2024.
+						
+						Actual total: 894
+						Average (11 year): 483
+
+						Projected totals (based on site climate normals)
+						    One-week: 1034
+						    Two-week: 1188
+
+
+
+
+Another Calculation
+				          
+				Data Disclaimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Illinois State Water Survey
+
+                    2204 Griffith Dr., MC-674
+                    Champaign, IL 61820-7463
+                    217-244-5459
+Email us with questions or comments.
+
+
+
+ 
+
+                    © 2022 University of Illinois Board of Trustees. All rights reserved.
+                    For permissions information, contact the Illinois State Water Survey.
+Terms of use | Privacy Policy | Web Administrator.
+
+
+
+
+
+
+
+
+
+
+
+2024-05-30 13:06:22,269 gdd_calc: INFO Response: Corn growing degree-days at Peoria. From 01/01/2024 through 5/29/2024.
+						
+						Actual total: 894
+						Average (11 year): 483
+
+						Projected totals (based on site climate normals)
+						    One-week: 1034
+						    Two-week: 1188
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '22', 'areabox': 'bbc', 'date': '01/01', 'plap': 'Big Bend'}
+gdd_calc: ERROR Error in getting response
+gdd_calc: INFO Payload data: {'base': '50', 'placebox': '15', 'areabox': 'ste', 'date': '01/01', 'plap': 'Stelle'}
+gdd_calc: ERROR Error in getting response

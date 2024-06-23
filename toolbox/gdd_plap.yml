@@ -1,0 +1,95 @@
+cities:
+  DeKalb:
+    base: 50
+    placebox: 5
+    areabox: dek
+  
+  Freeport:
+    base: 50
+    placebox: 13
+    areabox: fre
+  
+  St. Charles:
+    base: 50
+    placebox: 20
+    areabox: stc
+  
+  Big Bend:
+    base: 50
+    placebox: 22
+    areabox: bbc
+  
+  Stelle:
+    base: 50
+    placebox: 15
+    areabox: ste
+  
+  Monmouth:
+    base: 50
+    placebox: 6
+    areabox: mon
+  
+  Peoria:
+    base: 50
+    placebox: 8
+    areabox: icc
+  
+  Snicarte:
+    base: 50
+    placebox: 16
+    areabox: sni
+  
+  Champaign:
+    base: 50
+    placebox: 81
+    areabox: cmi
+  
+  Bondville:
+    base: 50
+    placebox: 1
+    areabox: bvl
+  
+  Perry:
+    base: 50
+    placebox: 4
+    areabox: orr
+  
+  Springfield:
+    base: 50
+    placebox: 9
+    areabox: llc
+  
+  Brownstown:
+    base: 50
+    placebox: 3
+    areabox: brw
+  
+  Olney:
+    base: 50
+    placebox: 12
+    areabox: oln
+  
+  Fairfield:
+    base: 50
+    placebox: 34
+    areabox: fai
+  
+  Belleville:
+    base: 50
+    placebox: 10
+    areabox: frm
+  
+  Rend Lake:
+    base: 50
+    placebox: 14
+    areabox: rnd
+  
+  Carbondale:
+    base: 50
+    placebox: 11
+    areabox: siu
+  
+  Dixon Springs:
+    base: 50
+    placebox: 2
+    areabox: dxs

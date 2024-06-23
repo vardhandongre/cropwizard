@@ -1,0 +1,9 @@
+name: gdd_calc
+entry_point: gdd_calc:main
+runtime:
+  cpu: 1
+  memory: 2Gi
+  image:
+    python_version: python3.10
+    python_packages:
+      - beautifulsoup4==4.12.3

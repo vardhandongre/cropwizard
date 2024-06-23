@@ -1,0 +1,24 @@
+{
+    "personas": [
+        {"name": "Alice", "farm_type": "Crop", "location": "Midwest US", "experience": "Experienced"},
+        {"name": "Michael", "farm_type": "Livestock", "location": "Southern US", "experience": "Novice"},
+        {"name": "Sara", "farm_type": "Crop", "location": "Northeast US", "experience": "Intermediate"},
+        {"name": "Robert", "farm_type": "Livestock", "location": "Western US", "experience": "Experienced"},
+        {"name": "Linda", "farm_type": "Crop", "location": "Southern US", "experience": "Novice"},
+        {"name": "James", "farm_type": "Livestock", "location": "Midwest US", "experience": "Intermediate"},
+        {"name": "Karen", "farm_type": "Crop", "location": "Western US", "experience": "Experienced"},
+        {"name": "David", "farm_type": "Livestock", "location": "Northeast US", "experience": "Novice"},
+        {"name": "Barbara", "farm_type": "Crop", "location": "Midwest US", "experience": "Intermediate"},
+        {"name": "Richard", "farm_type": "Livestock", "location": "Southern US", "experience": "Experienced"},
+        {"name": "Susan", "farm_type": "Crop", "location": "Northeast US", "experience": "Novice"},
+        {"name": "Charles", "farm_type": "Livestock", "location": "Western US", "experience": "Intermediate"},
+        {"name": "Jessica", "farm_type": "Crop", "location": "Southern US", "experience": "Experienced"},
+        {"name": "Daniel", "farm_type": "Livestock", "location": "Midwest US", "experience": "Novice"},
+        {"name": "Nancy", "farm_type": "Crop", "location": "Western US", "experience": "Intermediate"},
+        {"name": "Matthew", "farm_type": "Livestock", "location": "Northeast US", "experience": "Experienced"},
+        {"name": "Lisa", "farm_type": "Crop", "location": "Midwest US", "experience": "Novice"},
+        {"name": "Thomas", "farm_type": "Livestock", "location": "Southern US", "experience": "Intermediate"},
+        {"name": "Betty", "farm_type": "Crop", "location": "Western US", "experience": "Experienced"},
+        {"name": "Christopher", "farm_type": "Livestock", "location": "Northeast US", "experience": "Novice"}
+    ]
+}

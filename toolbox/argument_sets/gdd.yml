@@ -1,108 +1,108 @@
 base: 50
 placebox: 5
-placebox: dek
+areabox: dek
 date:
 plap: DeKalb
 
 base: 50
 placebox: 13
-placebox: fre
+areabox: fre
 date:
 plap: Freeport
 
 base: 50
 placebox: 20
-placebox: stc
+areabox: stc
 date:
 plap: St. Charles
 
 base: 50
 placebox: 22
-placebox: bbc
+areabox: bbc
 date:
 plap: Big Bend
 
 base: 50
 placebox: 15
-placebox: ste
+areabox: ste
 date:
 plap: Stelle
 
 base: 50
 placebox: 6
-placebox: mon
+areabox: mon
 date:
 plap: Monmouth
 
 base: 50
 placebox: 8
-placebox: icc
+areabox: icc
 date:
 plap: Peoria
 
 base: 50
 placebox: 16
-placebox: sni
+areabox: sni
 date:
 plap: Snicarte
 
 base: 50
 placebox: 81
-placebox: cmi
+areabox: cmi
 date:
 plap: Champaign
 
 base: 50
 placebox: 1
-placebox: bvl
+areabox: bvl
 date:
 plap: Bondville
 
 base: 50
 placebox: 4
-placebox: orr
+areabox: orr
 date:
 plap: Perry
 
 base: 50
 placebox: 9
-placebox: llc
+areabox: llc
 date:
 plap: Springfield
 
 base: 50
 placebox: 3
-placebox: brw
+areabox: brw
 date:
 plap: Brownstown
 
 base: 50
 placebox: 12
-placebox: oln
+areabox: oln
 date:
 plap: Olney
 
 base: 50
 placebox: 34
-placebox: fai
+areabox: fai
 date:
 plap: Fairfield
 
 base: 50
 placebox: 10
-placebox: frm
+areabox: frm
 date:
 plap: Belleville
 
 base: 50
 placebox: 14
-placebox: rnd
+areabox: rnd
 date:
 plap: Rend Lake
 
 base: 50
 placebox: 11
-placebox: siu
+areabox: siu
 date:
 plap: Carbondale
 

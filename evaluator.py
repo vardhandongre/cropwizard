@@ -1,13 +1,10 @@
-# script to evalute synthetic dialogues using LLM
-
+# script to evaluate synthetic dialogues using LLM
 import os
 import json
-import yaml
 import random
 import time
 import sys
 import requests
-
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from openai import OpenAI
 import anthropic
@@ -26,6 +23,12 @@ def evaluate_dialogues(dialogs, model):
     model = model
     dialogues_folder = dialogs
 
+    # Create the evaluations folder if it doesn't exist
+    evaluations_folder = os.path.join(dialogues_folder, 'evaluations')
+    if not os.path.exists(evaluations_folder):
+        os.makedirs(evaluations_folder)
+        print(f"Created evaluations folder at: {evaluations_folder}")
+
     # Select the model api
     if model == "gpt4":
         api_key = os.getenv("OPENAI_API_KEY")
@@ -39,7 +42,7 @@ def evaluate_dialogues(dialogs, model):
         model="claude-3-opus-20240229"
     elif model == "CropWizard 1.5":
         api_key = os.getenv("OPENAI_API_KEY")
-        cropwizard_api = os.getenv("CROPWIZARD_API")
+        cropwizard_api = "uc_5806ac979cae4911a920231ca15abad7"
     else:
         raise ValueError("Invalid model")
 
@@ -51,11 +54,7 @@ def evaluate_dialogues(dialogs, model):
         dialogue_pth = os.path.join(dialogues_folder, dialogue)
         print("Evaluating dialogues from: ", dialogue)
         with open(dialogue_pth, 'r') as file:
-            # dialogues = file.readlines()
             dialogues_txt = [file.read().replace('\n', ' ')]
-            # dialogues = [dialogue.strip() for dialogue in dialogues]
-            # print(dialogues_txt)
-            # print(len(dialogues_txt))
 
             # Evaluate the dialogues
             # Prompt Template
@@ -72,7 +71,7 @@ def evaluate_dialogues(dialogs, model):
             prompt = prompt_template.format(dialogues_txt[0])
 
             if model == "gpt4":
-                reponse = client.chat.completions.create(
+                response = client.chat.completions.create(
                     model = "gpt-4-1106-preview",
                     messages = [
                         {
@@ -82,13 +81,13 @@ def evaluate_dialogues(dialogs, model):
                     ],
                     seed = 0,
                 )
-                # print(reponse.choices[0].message.content)
+                # print(response.choices[0].message.content)
                 # Save the response to a file
                 dialogue_name, _ = os.path.splitext(dialogue)
-                with open(f"{dialogues_folder}/{dialogue_name}_{model}_evaluation.txt", 'w') as file:
-                    file.write(reponse.choices[0].message.content)
-                    print(f"Analysis saved to: {dialogue}_{model}_evaluation.txt")
-                break
+                evaluation_file_path = os.path.join(evaluations_folder, f"{dialogue_name}_{model}_evaluation.txt")
+                with open(evaluation_file_path, 'w') as file:
+                    file.write(response.choices[0].message.content)
+                    print(f"Analysis saved to: {evaluation_file_path}")
 
             elif model == "CropWizard 1.5":
                 url = "https://www.uiuc.chat/api/chat-api/chat"
@@ -117,12 +116,19 @@ def evaluate_dialogues(dialogs, model):
                 response = requests.post(url, headers=headers, json=data)
                 # print(response.text)
                 if response.status_code == 200:
+                    print()
                     # save the response to a file
                     dialogue_name, _ = os.path.splitext(dialogue)
-                    with open(f"{dialogues_folder}/{dialogue_name}_{model}_evaluation.txt", 'w') as file:
+                    evaluation_file_path = os.path.join(evaluations_folder, f"{dialogue_name}_{model}_evaluation.txt")
+                    with open(evaluation_file_path, 'w') as file:
                         file.write(response.text)
-                        print(f"Analysis saved to: {dialogue}_{model}_evaluation.txt")
-                break
+                        print(f"Analysis saved to: {evaluation_file_path}")
+                else:
+                    print(f"Failed to receive response for dialogue: {dialogue}, Status Code: {response.status_code}")
+                    print(response.text)
+
+            # Add a fixed delay to avoid rate limiting
+            time.sleep(10)
 
 def main():
     parser = argparse.ArgumentParser(description="Evaluate synthetic dialogues using LLM")
@@ -137,5 +143,3 @@ if __name__ == "__main__":
 
 # Example usage:
 # python evaluator.py --dialogues_folder ./dialogues --model gpt4
-
-
